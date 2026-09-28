@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.full_title }}</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="canonical" href="{{ page.canonical }}">
+{{ page.robots }}
+<meta name="theme-color" content="#0a8f55">
+<meta property="og:type" content="website"><meta property="og:site_name" content="123.Cash">
+<meta property="og:title" content="{{ page.full_title }}"><meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ page.canonical }}"><meta property="og:image" content="https://123.cash/assets/img/og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "123.Cash", "url": "https://123.cash/", "potentialAction": {"@type": "SearchAction", "target": "https://123.cash/guides.html?q={q}", "query-input": "required name=q"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "123.Cash", "url": "https://123.cash/", "logo": "https://123.cash/assets/img/logo.svg"}</script>
+{{ page.ld }}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar" role="note"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership →</a></div>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="123.Cash home"><svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a8f55"/><stop offset=".6" stop-color="#0fbf73"/><stop offset="1" stop-color="#f5b400"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#lg)"/><path d="M14 44V22l-4 3M26 24c2-3 10-3 10 3 0 5-10 9-10 17h10M44 22h8l-5 8c4 0 6 3 6 7s-3 7-7 7-6-2-7-4" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>123<b>.Cash</b></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="primary-nav" aria-label="Primary"><a href="index.html">Home</a><a href="tools.html">Tools</a><a href="earn.html">Earn</a><a href="save.html">Save</a><a href="borrow.html">Borrow</a><a href="invest.html">Invest</a><a href="guides.html">Guides</a><a href="videos.html">Videos</a><a href="contests.html">Contests</a><a href="donate.html">Support</a>
+      <a class="btn btn-primary btn-sm" href="get-started.html" style="color:#fff">Free Cash Plan</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html" style="color:#fff"><svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a8f55"/><stop offset=".6" stop-color="#0fbf73"/><stop offset="1" stop-color="#f5b400"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#lg)"/><path d="M14 44V22l-4 3M26 24c2-3 10-3 10 3 0 5-10 9-10 17h10M44 22h8l-5 8c4 0 6 3 6 7s-3 7-7 7-6-2-7-4" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>123<b>.Cash</b></span></a>
+        <p style="margin-top:12px">Money made as simple as 1-2-3. Free tools, plain-English guides and matched offers to help you earn, save and grow cash.</p>
+        <form data-form="Newsletter" data-ok="You're in! Weekly money tips are on the way.">
+          <input class="hp" name="_honey" tabindex="-1" autocomplete="off">
+          <label for="nl-{{ page.slug }}" style="color:#fff">Weekly money tips (free)</label>
+          <div style="display:flex;gap:8px"><input id="nl-{{ page.slug }}" type="email" name="email" placeholder="you@email.com" required><button class="btn btn-accent btn-sm" type="submit">Join</button></div>
+          <div class="form-msg" aria-live="polite"></div>
+        </form>
+      </div>
+      <div><h4>Money tools</h4><ul><li><a href="tools.html#loan">Loan calculator</a></li><li><a href="tools.html#compound">Compound interest</a></li><li><a href="tools.html#debt">Debt payoff</a></li><li><a href="tools.html#budget">50/30/20 budget</a></li><li><a href="tools.html#hustle">Side-hustle income</a></li><li><a href="tools.html#fire">FIRE number</a></li></ul></div><div><h4>Learn</h4><ul><li><a href="earn.html">Earn more</a></li><li><a href="save.html">Save smarter</a></li><li><a href="borrow.html">Borrow wisely</a></li><li><a href="invest.html">Invest & grow</a></li><li><a href="guides.html">All guides</a></li><li><a href="videos.html">Video library</a></li></ul></div><div><h4>Community</h4><ul><li><a href="get-started.html">Free Cash Plan</a></li><li><a href="contests.html">Contests & prizes</a></li><li><a href="donate.html">Support 123.Cash</a></li><li><a href="careers.html">Careers & talent</a></li><li><a href="advertise.html">Advertise / Sponsor</a></li><li><a href="partners.html">Partner program</a></li></ul></div><div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="disclaimer.html">Disclaimers</a></li><li><a href="legal.html">Trademark & copyright</a></li><li><a href="cookies.html">Cookies</a></li></ul></div>
+    </div>
+    <div class="legal-note">
+      <p><strong>Disclosure:</strong> 123.Cash is an independent educational publisher. We are not a lender, bank, broker or financial adviser, and nothing here is financial, legal or tax advice. Some links are sponsored or affiliate links; we may earn a commission at no cost to you, which never changes our editorial ratings. Offers are subject to the provider's terms and approval.</p>
+      <p><strong>Trademark notice:</strong> "123.Cash" is used solely as the name of this website and domain. It is not affiliated with, endorsed by, or connected to any company, lender, app or product using "123Cash", "123 Cash", "Cash App" or similar names. All third-party names and logos are the property of their respective owners. See <a href="legal.html">Trademark &amp; Copyright</a>.</p>
+      <p>© <span class="year">2026</span> 123.Cash. All rights reserved. · <a href="https://web.works/contact" target="_blank" rel="noopener">Domain / sponsorship / partnership inquiries</a> · <a href="#" class="js-mail" data-subject="Inquiry from 123.Cash">Email us</a></p>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="lead-modal" role="dialog" aria-modal="true" aria-labelledby="lm-t">
+  <div class="modal-box">
+    <button class="modal-close" aria-label="Close">×</button>
+    <span class="eyebrow">Free · 60 seconds</span>
+    <h3 id="lm-t">Get your personal Cash Plan</h3>
+    <p class="muted">Tell us your goal — we'll send a tailored 3-step plan plus matched offers you can compare. No spam, unsubscribe anytime.</p>
+    <form data-form="Popup lead" data-ok="Done! Check your inbox for your Cash Plan.">
+      <input class="hp" name="_honey" tabindex="-1" autocomplete="off">
+      <label for="pm-goal">My main goal</label>
+      <select id="pm-goal" name="goal" required><option value="">Choose…</option><option>Borrow cash / personal loan</option><option>Earn more / side income</option><option>Get out of debt</option><option>Save & budget</option><option>Invest & grow</option><option>Business funding</option></select>
+      <label for="pm-name">First name</label><input id="pm-name" name="first_name" required autocomplete="given-name">
+      <label for="pm-email">Email</label><input id="pm-email" type="email" name="email" required autocomplete="email">
+      <label class="check"><input type="checkbox" name="consent" value="yes" required> I agree to receive my plan and relevant offers by email, and accept the <a href="privacy.html">Privacy Policy</a>.</label>
+      <button class="btn btn-primary" type="submit" style="width:100%;margin-top:12px">Send my free plan →</button>
+      <div class="form-msg" aria-live="polite"></div>
+    </form>
+  </div>
+</div>
+<a class="btn btn-primary sticky-cta" href="get-started.html">Get my free Cash Plan →</a>
+<div class="cookie" role="dialog" aria-label="Cookie consent"><p>We use cookies for analytics and to show ads that keep 123.Cash free. <a href="cookies.html">Learn more</a>.</p>
+<button class="btn btn-primary btn-sm" data-consent="yes">Accept</button> <button class="btn btn-ghost btn-sm" data-consent="no">Decline</button></div>
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

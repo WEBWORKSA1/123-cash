@@ -1,0 +1,3 @@
+title: 123.Cash
+description: Money made as simple as 1-2-3
+exclude: [build, docs, README.md, _site_preview]
